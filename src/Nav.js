@@ -1,6 +1,7 @@
 import { Fragment, useState } from "react";
 import {Transition,Dialog} from "@headlessui/react"
 import RoundedLink from "./RoundedLink";
+import LocationMarkerIcon from "@heroicons/react/outline/LocationMarkerIcon.js";
 function Nav(){
     let [isMenuOpen, setIsMenuOpen] = useState(false);
     let [isAnimating,setIsAnimating] = useState(false);
@@ -37,14 +38,18 @@ function Nav(){
                     leaveFrom = "translate-x-0"
                     leaveTo = "translate-x-full"
                     >
-                        <div className = "fixed top-0 bottom-0 right-0 z-20 flex flex-col items-start p-5 pt-40 transform bg-white w-80">
-                            <button class= "text-lg pb-5 pt-3">Menu</button>
-                            <button class = "text-lg pb-5">Rewards</button>
-                            <button class = "text-lg pb-5 ">Gift Cards</button>
+                        <div className = "fixed top-0 bottom-0 right-0 z-20 flex flex-col items-start w-3/4 p-5 pt-40 transform bg-white w-80">
+                            <button class= "text-lg pb-5 ">Menu</button>
+                            <button class = "text-lg pb-5 pt-5">Rewards</button>
+                            <button class = "text-lg pb-5 pt-5">Gift Cards</button>
                             <hr class="h-px w-full bg-break-line b-0 m-0  pb-5"></hr>
-                            <div class = "flex">
-                            <RoundedLink >Sign in</RoundedLink>
-                            <RoundedLink theme= "green">Join now</RoundedLink>
+                            <div class = "flex ">
+                            <button className = "px-4 py-1 bg-white border-2 rounded-full border-primary-black hover:bg-primary-grey-100 ">Sign in</button>
+                            <button className = "px-4 py-1 ml-3 text-white bg-black bg-white border-2 border-black rounded-full hover:opacity-70 ">Join now</button>
+                            </div>
+                            <div class = "flex pt-4">
+                                <LocationMarkerIcon className = "w-8 h-8 text-black"/>
+                                <div className = "pt-1 pl-2 text-center">Find a store</div>
                             </div>
                         </div>
                     </Transition.Child>

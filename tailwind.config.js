@@ -21,7 +21,10 @@ module.exports = {
         700 : "#00653e",
         800 : "#f3f1e7",
         900 : "#dcdcdc",
-        'grey': "#808080"
+        'grey': "#808080",
+        'grey-100' :"#C5C5C5",
+        1000 : "#f7f7f7",
+        'soft-black':" #181A18",
       },
       secondary: "#f3f1e7",
       grey:colors.grey,

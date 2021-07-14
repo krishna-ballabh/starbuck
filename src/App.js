@@ -6,6 +6,8 @@ import RoundedLink from "./RoundedLink";
 import Favorites from "./Favorites";
 import Extras from "./Extras";
 import EarnStars from "./EarnStars";
+import StarCodes from "./StarCodes";
+import Information from "./Information";
 function App() {
   return (
     <div>
@@ -24,6 +26,8 @@ function App() {
      <Favorites />
      <Extras />
      <EarnStars />
+     <StarCodes />
+     <Information />
     </div>
     </div>
     </div>
