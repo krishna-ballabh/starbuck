@@ -24,7 +24,7 @@ module.exports = {
         'grey': "#808080",
         'grey-100' :"#C5C5C5",
         1000 : "#f7f7f7",
-        'soft-black':" #181A18",
+        'soft-black':"#414a4c",
       },
       secondary: "#f3f1e7",
       grey:colors.grey,
@@ -40,7 +40,6 @@ module.exports = {
       }),
       fontSize:{
         xl:['30.2px','30.64px'],
-        lg:['23px','28px']
       },
     },
   },
