@@ -8,6 +8,7 @@ module.exports = {
       '800px':'800px',
       '12' : '48px',
     },
+    
     colors: {
       primary:{
         100: "#f1f8f6",
@@ -24,7 +25,7 @@ module.exports = {
         'grey': "#808080",
         'grey-100' :"#C5C5C5",
         1000 : "#f7f7f7",
-        'soft-black':" #181A18",
+        'soft-black':"#414a4c",
       },
       secondary: "#f3f1e7",
       grey:colors.grey,

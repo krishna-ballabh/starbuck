@@ -8,6 +8,8 @@ import Extras from "./Extras";
 import EarnStars from "./EarnStars";
 import StarCodes from "./StarCodes";
 import Information from "./Information";
+import Aboutus from "./Aboutus";
+import Footer from "./Footer";
 function App() {
   return (
     <div>
@@ -28,6 +30,8 @@ function App() {
      <EarnStars />
      <StarCodes />
      <Information />
+     <Aboutus />
+     <Footer/>
     </div>
     </div>
     </div>
