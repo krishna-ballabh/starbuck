@@ -8,6 +8,7 @@ module.exports = {
       '800px':'800px',
       '12' : '48px',
     },
+    
     colors: {
       primary:{
         100: "#f1f8f6",
